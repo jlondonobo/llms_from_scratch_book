@@ -16,6 +16,8 @@ tensorflow = "^2.16.1"
 pandas = "^2.2.2"
 requests = "^2.31.0"
 tqdm = "^4.66.4"
+openai = "^1.26.0"
+instructor = {git = "https://github.com/jxnl/instructor"}
 
 
 [tool.poetry.group.dev.dependencies]
