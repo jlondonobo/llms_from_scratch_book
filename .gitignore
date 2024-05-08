@@ -1,0 +1,4 @@
+data/
+*.pth
+gpt2/
+__pycache__/

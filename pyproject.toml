@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "llm-from-scratch"
+version = "0.1.0"
+description = ""
+authors = ["jlondonobo <j.londonobo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "llm_from_scratch"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.8.4"
+numpy = "^1.26.4"
+tiktoken = "^0.6.0"
+torch = "^2.3.0"
+tensorflow = "^2.16.1"
+pandas = "^2.2.2"
+requests = "^2.31.0"
+tqdm = "^4.66.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
